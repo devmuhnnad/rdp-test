@@ -1,0 +1,11 @@
+#rdp {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #rdp {
+    background-color: red;
+  }
+}
